@@ -1,0 +1,213 @@
+body { 
+  background-image: url('bg.jpg'); 
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f1f5f9; 
+  color: #1e293b; /* Deep slate blue */
+  margin: 0;
+  padding: 0;
+}
+
+/* === Headings === */
+h1, h2 {
+  color: #0ea5e9; /* Bright sky blue */
+  margin-top: 20px;
+  text-align: center;
+}
+
+h3, h4, h5 {
+  color: #334155; /* Muted dark blue */
+  text-align: center;
+}
+
+/* === Form Section === */
+#noi {
+  background-color: #e0f2fe; /* Light blue */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px auto;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  color: #0f172a;
+  font-weight: bold;
+}
+
+textarea, select {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #94a3b8;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  background-color: #0ea5e9;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #0284c7;
+}
+
+/* === Projects Section === */
+#flex {
+  text-decoration: underline;
+  color: #0ea5e9;
+  font-size: 26px;
+  margin-top: 40px;
+}
+
+#box3 {
+  color: #2563eb; /* Blue */
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* === Ads/Aside Section === */
+#two {
+  background-color: #1e293b;
+  padding: 20px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+#navbar {
+  font-family: Georgia, serif;
+  color: white;
+  font-weight: bold;
+}
+
+#oo {
+  color: #fbbf24; /* Yellow/golden */
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* === Issue Text Heading === */
+#orc {
+  color: orangered;
+  font-family: Georgia, serif;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+/* === Footer Section === */
+#foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 20px;
+  gap: 10px;
+  text-align: center;
+}
+
+footer .made {
+  font-size: 16px;
+}
+
+.openai {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.openai p {
+  margin: 5px 0;
+}
+
+/* === Link Styling === */
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === Spinner === */
+.loader-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loader {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 20px solid #FFE66D;
+  border-top: 20px solid #4ECDC4;
+  animation: spinAnimate 0.90s ease-in-out 0s infinite normal;
+}
+
+#ose {
+  margin-top: 20px;
+  font-size: 18px;
+  color: aqua;
+  font-family: sans-serif;
+}
+
+@keyframes spinAnimate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* === Mobile Responsive === */
+@media (max-width: 600px) {
+  #foot {
+    padding: 30px 10px;
+    font-size: 14px;
+  }
+
+  #noi {
+    width: 95%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+}
+
+.wiki:hover {
+   height: 220px;
+}
+.ladder {
+  background-image: url('bgtech.jpg');
+  background-repeat:repeat;
+}
+#orc:hover {
+    transform: skew(30deg);
+}
+  
