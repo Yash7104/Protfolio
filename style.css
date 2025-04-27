@@ -212,6 +212,23 @@ a:hover {
 #box3:hover {
   transform: skew(20deg);
   color: yellowgreen;
+  font-size: 30px;  
+}
+.los {
+  background-color: gold;
+  background-image: none; 
+}
+.t {
+  color: blue;
+}
+#ama {
   font-size: 30px;
+}
+#te {
+  display: block;
+  font-size: 20px;
   
+}
+#ama:hover {
+  transform: skew(200deg);
 }
