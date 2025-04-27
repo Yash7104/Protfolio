@@ -19,7 +19,3 @@ Checkout the live website by clicking here ➡️ [Portfolio Live Link](https://
 > - Help make the website **look better** and **more attractive**.
 
 ---
-<<<<<<< HEAD
-=======
-
->>>>>>> 4c088bc364acf8d5a160feba464e5de418fb5fd9
