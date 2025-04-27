@@ -1,6 +1,6 @@
 body { 
-  background-image: url('bg.jpg'); 
-  background-size: cover;
+  background-image: url('vectorbg.jpg'); 
+  background-size: contain;
   background-repeat: repeat;
   background-position: center;
   font-family: 'Poppins', sans-serif;
@@ -64,17 +64,18 @@ input[type="submit"]:hover {
 }
 
 #flex {
-  color: #0ea5e9;
-  font-size: 26px;
+  color: orange;
+  font-size: 35px;
   margin-top: 40px;
 }
 
 #box3 {
-  color: #2563eb; 
-  font-size: 18px;
+  color: green; 
+  font-size: 34px;
   display: block;
   text-align: center;
   margin-top: 10px;
+ 
 }
 
 
@@ -103,7 +104,7 @@ input[type="submit"]:hover {
 
 
 #orc {
-  color: orangered;
+  color: whitesmoke;
   font-family: Georgia, serif;
   text-align: center;
   margin-top: 40px;
@@ -204,13 +205,13 @@ a:hover {
   background-image: url('bgtech.jpg');
   background-repeat:repeat;
 }
-#orc:hover { 
-    transform: scale(2);
-  }
 
-#flex:hover {
-  transform: scale(2);
-  color: coral;
+.Hero {
+  color: darkorange;
 }
-
-
+#box3:hover {
+  transform: skew(20deg);
+  color: orangered;
+  font-size: 30px;
+  
+}
