@@ -1,8 +1,8 @@
-# Protfolio
-This is my website with HTML,CSS {JS AND OTHER CODING LANGUAGES ARE NOT USED} <h3>*In development*</h3>
 # Portfolio
 This is my website with **HTML** and **CSS**.  
 {JS and other coding languages are not used.}
+
+Checkout this repo ink live y clicking here--> https://yash7104.github.io/Protfolio/
 
 ### *In development*
 
