@@ -1,10 +1,21 @@
 # Portfolio
-This is my website with **HTML** and **CSS**.  
-{JS and other coding languages are not used.}
+This is my website made with **HTML** and **CSS**.  
+*(JS and other coding languages are not used.)*
 
-Checkout this repo ink live y clicking here--> https://yash7104.github.io/Protfolio/
+Checkout the live website by clicking here ➡️ [Portfolio Live Link](https://yash7104.github.io/Protfolio/)
 
 ### *In development*
 
+---
+
 > ⚠️ **Warning:**  
-> No pull requests will be merged into this repository due to certain concerns and safety reasons.
+> No pull requests shall be merged into this repository currently due to certain concerns and safety reasons.
+> 
+> **Only some pull requests will be considered for merging if they:**
+> - Use only **HTML** and **CSS**.
+> - Add **useful information** about me.
+> - Contain **something valuable** that others would like.
+> - Help make the website **look better** and **more attractive**.
+
+---
+
