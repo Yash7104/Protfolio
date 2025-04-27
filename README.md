@@ -6,7 +6,8 @@ This is my website made with **HTML** and **CSS**.
 
 
 Checkout the live website by clicking here ➡️ [Portfolio Live Link](https://yash7104.github.io/Protfolio/)
-Expected date of Fully completing the Work--> 14-16 MAY 2025
+
+Expected date of Fully Publshing the website--> 14-16 MAY 2025
 
 ---
 
