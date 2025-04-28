@@ -216,7 +216,9 @@ a:hover {
 }
 .los {
   background-color: gold;
-  background-image: none; 
+  background-image: url(pexels-pixabay-235985.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .t {
   color: blue;
@@ -231,4 +233,13 @@ a:hover {
 }
 #ama:hover {
   transform: skew(200deg);
+  
+}
+#te {
+  color: darkred;
+}
+.new {
+  background-image: url(pexels-fwstudio-33348-129731.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
