@@ -183,16 +183,11 @@ a:hover {
   to { transform: rotate(360deg); }
 }
 @media (max-width: 600px) {
-  body {
-    padding: 10px; 
-    font-size: 14px; 
-  }
   #foot {
     padding: 30px 10px;  
     font-size: 14px;  
   }
 }
-
 
   #noi {
     width: 95%;
