@@ -1,16 +1,22 @@
-body { 
-  background-image: url('vectorbg.jpg'); 
+/* General Resets */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+/* Body Background */
+body {
+  background-image: url('vectorbg.jpg');
   background-size: contain;
   background-repeat: repeat;
   background-position: center;
-  font-family: 'Poppins', sans-serif;
-  background-color: #f1f5f9; 
-  color: #1e293b;
-  margin: 0;
-  padding: 0;
 }
 
-
+/* Headings */
 h1, h2 {
   color: #0ea5e9;
   margin-top: 20px;
@@ -22,9 +28,9 @@ h3, h4, h5 {
   text-align: center;
 }
 
-
+/* Text Area / Form Styles */
 #noi {
-  background-color: #e0f2fe; 
+  background-color: #e0f2fe;
   padding: 20px;
   border-radius: 10px;
   margin: 30px auto;
@@ -40,8 +46,7 @@ label {
 
 textarea, select {
   width: 100%;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin: 10px 0 20px;
   padding: 10px;
   border: 1px solid #94a3b8;
   border-radius: 8px;
@@ -63,6 +68,7 @@ input[type="submit"]:hover {
   background-color: #0284c7;
 }
 
+/* Extra Text Styles */
 #flex {
   color: orange;
   font-size: 35px;
@@ -70,15 +76,20 @@ input[type="submit"]:hover {
 }
 
 #box3 {
-  color: orangered; 
+  color: orangered;
   font-size: 25px;
   display: block;
   text-align: center;
   margin-top: 10px;
- 
 }
 
+#box3:hover {
+  transform: skew(20deg);
+  color: yellowgreen;
+  font-size: 30px;
+}
 
+/* Container Style */
 #two {
   background-color: #1e293b;
   padding: 20px;
@@ -89,19 +100,20 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
+/* Navbar */
 #navbar {
   font-family: Georgia, serif;
   color: white;
   font-weight: bold;
 }
 
+/* Extra Text Styling */
 #oo {
   color: #fbbf24;
   font-weight: bold;
   display: inline-block;
   margin-top: 10px;
 }
-
 
 #orc {
   color: whitesmoke;
@@ -111,7 +123,7 @@ input[type="submit"]:hover {
   font-size: 22px;
 }
 
-
+/* Footer */
 #foot {
   display: flex;
   flex-direction: column;
@@ -137,7 +149,7 @@ footer .made {
   margin: 5px 0;
 }
 
-
+/* Links */
 a {
   color: #38bdf8;
   text-decoration: none;
@@ -147,7 +159,7 @@ a:hover {
   text-decoration: underline;
 }
 
-
+/* Loader Animation */
 .loader-container {
   width: 100vw;
   height: 100vh;
@@ -168,7 +180,7 @@ a:hover {
   border-radius: 50%;
   border: 20px solid #FFE66D;
   border-top: 20px solid #4ECDC4;
-  animation: spinAnimate 0.90s ease-in-out 0s infinite normal;
+  animation: spinAnimate 0.90s ease-in-out infinite;
 }
 
 #ose {
@@ -182,12 +194,57 @@ a:hover {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.wiki:hover {
+  height: 220px;
+}
+
+/* Page Specific Backgrounds */
+.ladder {
+  background-image: url('bgtech.jpg');
+  background-repeat: repeat;
+}
+
+.los {
+  background-color: gold;
+  background-image: url('pexels-pixabay-235985.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.new {
+  background-image: url('pexels-fwstudio-33348-129731.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.t {
+  color: blue;
+}
+
+#ama {
+  font-size: 30px;
+}
+
+#ama:hover {
+  transform: skew(200deg);
+}
+
+#te {
+  display: block;
+  font-size: 20px;
+  color: darkred;
+}
+
+
 @media (max-width: 600px) {
   #foot {
-    padding: 30px 10px;  
-    font-size: 14px;  
+    padding: 30px 10px;
+    font-size: 14px;
   }
-}
 
   #noi {
     width: 95%;
@@ -197,49 +254,9 @@ a:hover {
     width: 100%;
   }
 
-
-.wiki:hover {
-   height: 220px;
-}
-.ladder {
-  background-image: url('bgtech.jpg');
-  background-repeat:repeat;
-}
-
-.Hero {
-  color: darkorange;
-}
-#box3:hover {
-  transform: skew(20deg);
-  color: yellowgreen;
-  font-size: 30px;  
-}
-.los {
-  background-color: gold;
-  background-image: url(pexels-pixabay-235985.jpg); 
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.t {
-  color: blue;
-}
-#ama {
-  font-size: 30px;
-}
-#te {
-  display: block;
-  font-size: 20px;
-  
-}
-#ama:hover {
-  transform: skew(200deg);
-  
-}
-#te {
-  color: darkred;
-}
-.new {
-  background-image: url(pexels-fwstudio-33348-129731.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  .los,
+  .new {
+    background-size: cover;
+    background-position: center;
+  }
 }
