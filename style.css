@@ -295,4 +295,15 @@ a:hover {
     color: #6B7280; 
     margin-top: 10px;
   }
-  
+  .mode:hover {
+    background-color: green;
+    transform: rotate(20deg);
+  }
+
+  .coding-hours:hover {
+    background-color: greenyellow;
+    box-shadow: 0 0 15px rgba(255, 0, 45, 1.0); 
+    transform: rotate(50deg);
+    height: 100px;
+
+  }
