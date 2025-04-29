@@ -1,91 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- now time to show my power of coding -->
+  <!-- Header Section -->
   <header>
-    <img src="web-ed.png" alt="Hero Image" style="width: 100%; height: 400px; object-fit: cover;">
-    <h1>Welcome to My Portfolio</h1>
-    <h1 style="color: limegreen;">HEY, It's Yash</h1>
+    <img src="web-ed.png" alt="Hero Image" style="width: 100%; height: 400px; object-fit: contain;">
+    <h1 id="sos">Welcome to My Portfolio</h1>
+    <h1 style="color: orange;">HEY, It's Yash</h1>
 
     <h2 class="Hero"><b>My Education:</b></h2>
 
     <div style="text-align: center;">
-  <a href="https://www.holycrossballia.com" target="_main">
-    <img id="los" src="https://www.holycrossballia.com/images/logo-school.png" alt="Holy Cross School Logo" style="height: 120px; margin-bottom: 10px;">
-  </a>
-  <h3 style="margin: 0; font-size: 24px; color: red; font-weight: bold;">HOLY CROSS SCHOOL, BALLIA</h3>
-  <h5 style="color: orange; font-size: 16px;">2016 - CURRENT</h5>
+      <a href="https://www.holycrossballia.com" target="_main">
+        <img id="los" src="https://www.holycrossballia.com/images/logo-school.png" alt="Holy Cross School Logo" style="height: 120px; margin-bottom: 10px;">
+      </a>
+      <h3 style="margin: 0; font-size: 24px; color: red; font-weight: bold;">HOLY CROSS SCHOOL, BALLIA</h3>
+      <h5 style="color: orange; font-size: 16px;">2016 - CURRENT</h5>
     </div>
 
+    <h2>My Experience:</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+      <img class="wiki" src="https://miro.medium.com/v2/resize:fit:1400/1*Jek77W1UJM-DZgpcG9nFsw.png" alt="HTML, CSS, JS" height="210px">
+      <img class="wiki" src="https://michaelwashburnjr.com/hubfs/Imported_Blog_Media/react-icon_svg_.png" alt="React Logo" height="200px">
+      <img class="wiki" src="https://cdn.iconscout.com/icon/free/png-256/free-git-logo-icon-download-in-svg-png-gif-file-formats--brand-development-tools-pack-logos-icons-225996.png?f=webp&w=256" alt="Git" height="180px">
+    </div>
+  </header>
 
-      <h2>My Experience:</h2>
-      <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-        <img class="wiki" src="https://miro.medium.com/v2/resize:fit:1400/1*Jek77W1UJM-DZgpcG9nFsw.png" alt="HTML, CSS, JS" height="210px">
-        <img class="wiki" src="https://michaelwashburnjr.com/hubfs/Imported_Blog_Media/react-icon_svg_.png" alt="React Logo" height="200px">
-        <img class="wiki" src="https://cdn.iconscout.com/icon/free/png-256/free-git-logo-icon-download-in-svg-png-gif-file-formats--brand-development-tools-pack-logos-icons-225996.png?f=webp&w=256" alt="Git" height="180px">
-      </div>
-      </header>
+  <hr> 
 
-    <hr> 
-    
-    <h1 id="flex">My Projects</h1>
-    <h5><a href="html.html" id="box3">Click Here!</a></h5>
-    
-    <h2 id="orc">Having any Issue? Tell us!</h2>
-    <form id="noi">
-        <div id="holy">
-          <label for="problem">Type your problem:</label><br>
-        </div>
-        <textarea name="your-problem" id="problem" placeholder="Please type your problem here" rows="8" cols="80" style="font-size: 16px;"></textarea><br><br>
-      
-        <label for="rating">Rate us:</label><br>
-        <select name="rate-us" id="rating">
-          <option value="--Select--">--Select--</option>
-          <option value="0">0</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-        </select><br><br>
-      
-        <input type="submit" value="Submit">
-      </form>
-      
+  <!-- Projects Section -->
+  <h1 id="flex">My Projects</h1>
+  <h5><a href="html.html" id="box3">Click Here!</a></h5>
 
-    <aside id="two">
-        <fieldset>
-            <legend><marquee id="navbar">Advertisements</marquee></legend>
-            <a href="https://code.visualstudio.com/" target="_main">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuER1tOoBap4qZ8V7OUsbf-quqFfEjj3Jnzg&s" alt="VS Code" height="150">
-            </a><br>
-            <a id="oo" href="https://code.visualstudio.com/">Download VS Code editor now!</a>
-        </fieldset>
-    </aside>
+  <div class="mode">
+    <h2>99+</h2>
+    <h2>Connections Worldwide</h2>
+  </div>
+  
+  <div class="coding-hours">
+    <h3>1,200+ Coding Hours</h3>
+  </div>
+  
+  <h2 id="orc">Having any Issue? Tell us!</h2>
+  <form id="noi">
+    <div id="holy">
+      <label for="problem">Type your problem:</label><br>
+    </div>
+    <textarea name="your-problem" id="problem" placeholder="Please type your problem here" rows="8" cols="80" style="font-size: 16px;"></textarea><br><br>
 
-    <footer id="foot">
-        <div class="made">
-            Made with <i class="fas fa-heart" style="color: red;"></i> by Yash
-        </div>
-        <hr style="width: 80%; border: 1px solid #38bdf8;">
-        <div class="openai">
-            <p><strong>Connect us:</strong></p>
-            <p><i class="fas fa-envelope"></i> yashindianraj12@gmail.com</p>
-            <p><i class="fab fa-github"></i> <a href="https://github.com/Yash7104" target="_blank">github.com/Yash7104</a></p>
-        </div>
-    </footer>
+    <label for="rating">Rate us:</label><br>
+    <select name="rate-us" id="rating">
+      <option value="--Select--">--Select--</option>
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <!-- Advertisements Section -->
+  <aside id="two">
+    <fieldset>
+      <legend><marquee id="navbar">Advertisements</marquee></legend>
+      <a href="https://code.visualstudio.com/" target="_main">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuER1tOoBap4qZ8V7OUsbf-quqFfEjj3Jnzg&s" alt="VS Code" height="150">
+      </a><br>
+      <a id="oo" href="https://code.visualstudio.com/">Download VS Code editor now!</a>
+    </fieldset>
+  </aside>
+
+  <!-- Footer Section -->
+  <footer id="foot">
+    <div class="made">
+      Made with <i class="fas fa-heart" style="color: red;"></i> by Yash
+    </div>
+    <hr style="width: 80%; border: 1px solid #38bdf8;">
+    <div class="openai">
+      <p><strong>Connect us:</strong></p>
+      <p><i class="fas fa-envelope"></i> yashindianraj12@gmail.com</p>
+      <p><i class="fab fa-github"></i> <a href="https://github.com/Yash7104" target="_blank">github.com/Yash7104</a></p>
+    </div>
+  </footer>
 </body>
 </html>
