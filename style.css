@@ -81,9 +81,10 @@ input[type="submit"]:hover {
 }
 
 #box3:hover {
-  transform: skew(20deg);
+  transform: scale(1.2);
   color: yellowgreen;
-  font-size: 30px;
+  transition: transform 0.3s ease-in, box-shadow 0.9s ease;
+
 }
 
 /* Container Style */
@@ -192,11 +193,7 @@ a:hover {
   to { transform: rotate(360deg); }
 }
 
-.wiki:hover {
-  height: 220px;
-}
 
-/* Page Specific Backgrounds */
 .ladder {
   background-image: url('bgtech.jpg');
   background-repeat: no-repeat;
@@ -258,7 +255,9 @@ a:hover {
   #sos {
     color: deeppink;
   }
-  .mode {
+  .mode,
+  .coding-hours,
+  .vi {
     border-radius: 12px;
     background-color: white;
     color: black;
@@ -267,42 +266,61 @@ a:hover {
     width: 40%;
     max-width: 400px;
     margin: 40px auto;
-    box-shadow: 0 0 15px rgba(0, 255, 255, 0.6); 
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Unique shadows */
+  .mode {
+    box-shadow: 10px 10px 15px rgba(0, 255, 255, 0.6); 
+  }
+  .coding-hours {
+    box-shadow: 10px 10px 15px rgba(255, 0, 100, 0.6); 
+  }
+  .vi {
+    box-shadow: 10px 10px 15px rgba(255, 165, 0, 0.6); 
   }
   
   .mode h2 {
-    font-size: 32px; 
+    font-size: 32px;
+    color: #0ea5e9;
     margin: 10px 0;
-    color: #0ea5e9; 
   }
-  
-  .coding-hours {
-    border-radius: 12px;
-    background-color: #f0f8ff; 
-    color: black;
-    padding: 20px 15px;
-    text-align: center;
-    width: 40%;
-    max-width: 400px;
-    margin: 20px auto;
-    box-shadow: 0 0 15px rgba(0, 255, 255, 0.6); 
-
-  }
-  
   .coding-hours h3 {
     font-size: 24px;
-    color: #6B7280; 
+    color: #6B7280;
     margin-top: 10px;
   }
-  .mode:hover {
-    background-color: green;
-    transform: rotate(20deg);
+  .vi h2 {
+    font-size: 28px;
+    color: #14b8a6;
+    margin: 10px 0;
+  }
+  
+  .mode:hover,
+  .coding-hours:hover,
+  .vi:hover {
+    transform: scale(1.2); 
   }
 
-  .coding-hours:hover {
-    background-color: greenyellow;
-    box-shadow: 0 0 15px rgba(255, 0, 45, 1.0); 
-    transform: rotate(50deg);
-    height: 100px;
+  .wiki1 {
+    box-shadow: 10px 10px 15px rgba(0, 255, 255, 0.7); 
+    border-radius: 12px;
   }
+  .wiki2 {
+    box-shadow: 10px 10px 15px rgba(255, 0, 0, 0.7); 
+    border-radius: 12px;
+  }
+  .wiki3 {
+    box-shadow: 10px 10px 15px rgba(0, 128, 255, 0.4);
+    border-radius: 12px;
+  }
+  .wiki1:hover {
+      box-shadow: 10px 10px 15px rgba(0, 255, 0, 0.5); /* Shadow */
+   }
+   .wiki2:hover {
+    box-shadow: 10px 10px 15px rgba(255, 255, 0, 0.7);
+   }
+   .wiki3:hover {
+    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.7);
+   }
