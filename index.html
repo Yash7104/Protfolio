@@ -55,31 +55,38 @@
   </div>
   <hr>
   
-  <h2 id="orc">Lets schedule a talk!</h2>
-  <form id="noi">
-    <div id="holy">
-      <label for="problem">Your Query</label><br>
+  <form>
+    <div id="lets"><h1>Let's schedule a Talk</h1></div>
+    <div class="form-center">
+      <label for="fname">First Name:</label><br>
+      <input type="text" id="fname" name="fname" placeholder="First Name"><br><br>
+  
+      <label for="lname">Last Name:</label><br>
+      <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
+  
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Your Email"><br><br>
+  
+      <label for="rate">Please Rate us:</label><br>
+      <select>
+        <option value="">Select</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select><br><br>
+  
+      <input type="submit" id="sub" value="Submit">
     </div>
-    <textarea name="your-problem" id="problem" placeholder="Please type your Query here" rows="8" cols="80" style="font-size: 16px;"></textarea><br><br>
-
-    <label for="rating">I Think you should Rate me!!</label><br>
-    <select name="rate-us" id="rating">
-      <option value="--Select--">Select</option>
-      <option value="0">0</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="7">7</option>
-      <option value="8">8</option>
-      <option value="9">9</option>
-      <option value="10">10</option>
-    </select><br><br>
-
-    <input type="submit" value="Submit">
   </form>
+  
+  
 
   <!-- Advertisements Section -->
   <aside id="two">
