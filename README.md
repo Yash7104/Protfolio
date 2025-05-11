@@ -9,13 +9,3 @@ Checkout the live website by clicking here ➡️ [Portfolio Live Link](https://
 
 Expected date of Fully Publishing the website--> 14-16 MAY 2025
 
----
-> ⚠️ **Warning:**  
-> No pull requests shall be merged into this repository currently due to certain concerns and safety reasons.
-> 
-> **Only some pull requests will be considered for merging if they:**
-> - Use only **HTML** and **CSS**.
-> - Contain **something valuable** that others would like.
-> - Help make the website **look better** and **more attractive**.
-
----
