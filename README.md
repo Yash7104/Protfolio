@@ -10,5 +10,5 @@ Checkout the live website by clicking here ➡️ [Portfolio Live Link](https://
 Expected date of Fully Publishing the website--> 14-16 MAY 2025
 
 ---
-Is not suitable for mobile
+ ⚠️This Website Is not suitable for mobile.So please try to avoid using it in mobile.⚠️
 ---
