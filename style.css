@@ -26,7 +26,7 @@ h3, h4, h5 {
   text-align: center;
 }
 
-/* Text Area / Form Styles */
+
 #noi {
   background-color: #e0f2fe;
   padding: 20px;
@@ -66,7 +66,7 @@ input[type="submit"]:hover {
   background-color: #0284c7;
 }
 
-/* Extra Text Styles */
+
 #flex {
   color: orange;
   font-size: 35px;
@@ -88,7 +88,6 @@ input[type="submit"]:hover {
 
 }
 
-/* Container Style */
 #two {
   background-color: #1e293b;
   padding: 20px;
@@ -106,7 +105,6 @@ input[type="submit"]:hover {
   font-weight: bold;
 }
 
-/* Extra Text Styling */
 #oo {
   color: #fbbf24;
   font-weight: bold;
@@ -148,7 +146,7 @@ footer .made {
   margin: 5px 0;
 }
 
-/* Links */
+
 a {
   color: #38bdf8;
   text-decoration: none;
@@ -316,27 +314,6 @@ a:hover {
     transform: scale(1.2); 
   }
 
-  .wiki1 {
-    box-shadow: 10px 10px 15px rgba(0, 255, 255, 0.7); 
-    border-radius: 12px;
-  }
-  .wiki2 {
-    box-shadow: 10px 10px 15px rgba(255, 0, 0, 0.7); 
-    border-radius: 12px;
-  }
-  .wiki3 {
-    box-shadow: 10px 10px 15px rgba(0, 128, 255, 0.4);
-    border-radius: 12px;
-  }
-  .wiki1:hover {
-      box-shadow: 10px 10px 15px rgba(0, 255, 0, 0.5); /* Shadow */
-   }
-   .wiki2:hover {
-    box-shadow: 10px 10px 15px rgba(255, 255, 0, 0.7);
-   }
-   .wiki3:hover {
-    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.7);
-   }
    .form-center {
     width: 80%;
     max-width: 600px;
@@ -390,9 +367,10 @@ a:hover {
     background-color: #0284c7;
     transform: scale(1.1);
   }
+
   /* Navbar Styling */
 .navbar {
-  background-color: #333;  /* dark background */
+  background-color: #333; 
   padding: 10px 20px;
 }
 
@@ -445,10 +423,53 @@ a:hover {
   background-color: #0b7dda;
 }
 .button-container {
+  text-decoration: none;
   text-align: center; 
   margin-top: 20px;  
 }
 #mes {
   height: 100px;
   text-align: center;
+}
+.wave {
+    display: inline-block;
+    font-size: 80px;
+    animation: waveEmoji 1.5s infinite;
+    transform-origin: 70% 70%;
+}
+
+@keyframes waveEmoji {
+    0%   { transform: rotate(0deg); }
+    15%  { transform: rotate(25deg); }
+    30%  { transform: rotate(-20deg); }
+    45%  { transform: rotate(15deg); }
+    60%  { transform: rotate(-33deg); }
+    75%  { transform: rotate(10deg); }
+    100% { transform: rotate(70deg); }
+}
+.wiki {
+  animation: spinThenFloat 1s ease-in-out infinite;
+  position: relative;
+  border-radius: 12px;
+  border: 2px solid white;
+  transition: height 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+@keyframes spinThenFloat {
+  0%   { transform: rotate(0deg); } 
+  10%  { transform: rotate(360deg); }
+  100% { transform: translate(0, 0) rotate(360deg); } 
+}
+
+.eo {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0;      
+}
+
+.wiki:hover {
+  height: 250px;
+  transform: rotate(30deg); 
+  animation: none;
 }
