@@ -1,14 +1,11 @@
 # Portfolio
-![In Development](https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge&logo=github)
+![Published](https://img.shields.io/badge/Status-Published-green?style=for-the-badge&logo=github)
 
-This is my website made with **HTML** and **CSS**.  
-*(Built only with HTML and CSS — no JavaScript used.)*
+Welcome to my personal portfolio website, built with **HTML** and **CSS**.  
+*(Note: Built only with HTML and CSS — no JavaScript used.)*
 
+Check out the live website here ➡️ [Portfolio Live Link](https://yash7104.github.io/Protfolio/)
 
-Checkout the live website by clicking here ➡️ [Portfolio Live Link](https://yash7104.github.io/Protfolio/)
+### Published On: May 14, 2025
 
-Expected date of Fully Publishing the website--> 14-16 MAY 2025
-
----
- ⚠️This Website Is not suitable for mobile.So please try to avoid using it in mobile.⚠️❗❗
 ---
