@@ -12,6 +12,7 @@ body {
   background-position: center;
   background-repeat: repeat;
   color: white;
+  padding-top: 60px;
 }
 
 /* Headings */
@@ -22,10 +23,9 @@ h1, h2 {
 }
 
 h3, h4, h5 {
-  color: #334155; 
+  color: #334155;
   text-align: center;
 }
-
 
 #noi {
   background-color: #e0f2fe;
@@ -66,7 +66,6 @@ input[type="submit"]:hover {
   background-color: #0284c7;
 }
 
-
 #flex {
   color: orange;
   font-size: 35px;
@@ -85,7 +84,6 @@ input[type="submit"]:hover {
   transform: scale(1.2);
   color: yellowgreen;
   transition: transform 0.3s ease-in, box-shadow 0.9s ease;
-
 }
 
 #two {
@@ -146,7 +144,6 @@ footer .made {
   margin: 5px 0;
 }
 
-
 a {
   color: #38bdf8;
   text-decoration: none;
@@ -192,7 +189,6 @@ a:hover {
   to { transform: rotate(360deg); }
 }
 
-
 .ladder {
   background-image: url('bgtech.jpg');
   background-repeat: no-repeat;
@@ -206,11 +202,13 @@ a:hover {
   background-size: contain;
   background-position: center;
   height: 900px;
-} 
+}
+
 #ros {
   font-size: 30px;
   color: red;
 }
+
 .no h1 {
   background-color: black;
   color: white;
@@ -220,16 +218,14 @@ a:hover {
   text-align: center;
 }
 
-
 .new {
   background-image: none;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-}
-.new {
   display: block;
 }
+
 .t {
   color: blue;
 }
@@ -242,171 +238,185 @@ a:hover {
   transform: skew(200deg);
 }
 
-
-@media (max-width: 600px) {
+@media (max-width: 600px) and (min-width: 90px) {
   #foot {
     padding: 30px 10px;
     font-size: 14px;
   }
 }
 
+#noi {
+  width: 95%;
+}
 
-  #noi {
-    width: 95%;
-  }
+textarea {
+  width: 100%;
+}
 
-  textarea {
-    width: 100%;
-  }
+.los, .new {
+  background-size: cover;
+  background-position: center;
+}
 
-  .los, .new {
-    background-size: cover;
-    background-position: center;
-  }
-  #sos {
-    color: deeppink;
-  }
-  .mode,
-  .coding-hours,
-  .vi {
-    border-radius: 12px;
-    background-color: white;
-    color: black;
-    padding: 30px 20px;
-    text-align: center;
-    width: 40%;
-    max-width: 400px;
-    margin: 40px auto;
-    font-family: 'Poppins', sans-serif;
-    transition: transform 0.5s ease, box-shadow 0.3s ease;
-  }
-  
-  /* Unique shadows */
-  .mode {
-    box-shadow: 10px 10px 15px rgba(0, 255, 255, 0.6); 
-  }
-  .coding-hours {
-    box-shadow: 10px 10px 15px rgba(255, 0, 100, 0.6); 
-  }
-  .vi {
-    box-shadow: 10px 10px 15px rgba(255, 165, 0, 0.6); 
-  }
-  
-  .mode h2 {
-    font-size: 32px;
-    color: #0ea5e9;
-    margin: 10px 0;
-  }
-  .coding-hours h3 {
-    font-size: 24px;
-    color: #6B7280;
-    margin-top: 10px;
-  }
-  .vi h2 {
-    font-size: 28px;
-    color: #14b8a6;
-    margin: 10px 0;
-  }
-  
-  .mode:hover,
-  .coding-hours:hover,
-  .vi:hover {
-    transform: scale(1.2); 
-  }
+#sos {
+  color: deeppink;
+}
 
-   .form-center {
-    width: 80%;
-    max-width: 600px;
-    background: linear-gradient(135deg, #a5f3fc, #fbcfe8);
-    padding: 40px;
-    margin: 40px auto;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-  }
-  
-  .form-center label {
-    color: #1e293b;
-    font-weight: 600;
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .form-center input,
-  .form-center select {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 20px;
-    font-size: 16px;
-    border: 2px solid #7dd3fc;
-    border-radius: 8px;
-    background-color: #f0f9ff;
-    transition: 0.3s ease;
-  }
-  
-  .form-center input:focus,
-  .form-center select:focus {
-    outline: none;
-    border-color: #0ea5e9;
-    background-color: #fff;
-  }
-  
-  #sub {
-    background-color: #c2410c;
-    color: white;
-    border: none;
-    padding: 12px 30px;
-    border-radius: 8px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background 0.4s ease;
-  }
-  
-  #sub:hover {
-    background-color: #0284c7;
-    transform: scale(1.1);
-  }
+.mode,
+.coding-hours,
+.vi {
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  padding: 30px 20px;
+  text-align: center;
+  width: 40%;
+  max-width: 400px;
+  margin: 40px auto;
+  font-family: 'Poppins', sans-serif;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
 
-  /* Navbar Styling */
+/* Unique shadows */
+.mode {
+  box-shadow: 10px 10px 15px rgba(0, 255, 255, 0.6);
+}
+
+.coding-hours {
+  box-shadow: 10px 10px 15px rgba(255, 0, 100, 0.6);
+}
+
+.vi {
+  box-shadow: 10px 10px 15px rgba(255, 165, 0, 0.6);
+}
+
+.mode h2 {
+  font-size: 32px;
+  color: #0ea5e9;
+  margin: 10px 0;
+}
+
+.coding-hours h3 {
+  font-size: 24px;
+  color: #6B7280;
+  margin-top: 10px;
+}
+
+.vi h2 {
+  font-size: 28px;
+  color: #14b8a6;
+  margin: 10px 0;
+}
+
+.mode:hover,
+.coding-hours:hover,
+.vi:hover {
+  transform: scale(1.2);
+}
+
+.form-center {
+  width: 80%;
+  max-width: 600px;
+  background: linear-gradient(135deg, #a5f3fc, #fbcfe8);
+  padding: 40px;
+  margin: 40px auto;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+.form-center label {
+  color: #1e293b;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-center input,
+.form-center select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 2px solid #7dd3fc;
+  border-radius: 8px;
+  background-color: #f0f9ff;
+  transition: 0.3s ease;
+}
+
+.form-center input:focus,
+.form-center select:focus {
+  outline: none;
+  border-color: #0ea5e9;
+  background-color: #fff;
+}
+
+#sub {
+  background-color: #c2410c;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.4s ease;
+}
+
+#sub:hover {
+  background-color: #0284c7;
+  transform: scale(1.1);
+}
+
+/* Navbar Styling */
 .navbar {
-  background-color: #333; 
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .navbar ul {
-  list-style: none;       
-  display: flex;           
+  list-style: none;
+  display: flex;
   margin: 0;
   padding: 0;
 }
 
 .navbar li {
-  margin-right: 20px;     
+  margin-right: 20px;
 }
 
 .navbar a {
-  color: white;           
-  text-decoration: none;   
+  color: white;
+  text-decoration: none;
   font-weight: bold;
 }
 
 .navbar a:hover {
-  color: yellow;           
+  color: yellow;
 }
 
 .about {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-image: url('ok.jpg');
+  background-repeat: no-repeat;
   height: 900px;
   background-position: center;
   padding: 20px;
   color: white;
 }
+
 .about h1 {
   color: red;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .btn {
   display: inline-block;
   text-align: center;
@@ -422,54 +432,70 @@ a:hover {
 .btn:hover {
   background-color: #0b7dda;
 }
+
 .button-container {
   text-decoration: none;
-  text-align: center; 
-  margin-top: 20px;  
+  text-align: center;
+  margin-top: 20px;
 }
+
 #mes {
   height: 100px;
   text-align: center;
 }
+
 .wave {
-    display: inline-block;
-    font-size: 80px;
-    animation: waveEmoji 1.5s infinite;
-    transform-origin: 70% 70%;
+  display: inline-block;
+  font-size: 80px;
+  animation: waveEmoji 0.1s infinite;
+  transform-origin: 70% 70%;
 }
 
 @keyframes waveEmoji {
-    0%   { transform: rotate(0deg); }
-    15%  { transform: rotate(25deg); }
-    30%  { transform: rotate(-20deg); }
-    45%  { transform: rotate(15deg); }
-    60%  { transform: rotate(-33deg); }
-    75%  { transform: rotate(10deg); }
-    100% { transform: rotate(70deg); }
+  0%   { transform: rotate(0deg); }
+  10%  { transform: rotate(19deg); }
+  20%  { transform: rotate(-8deg); }
+  30%  { transform: rotate(14deg); }
+  40%  { transform: rotate(-4deg); }
+  50%  { transform: rotate(12deg); }
+  60%  { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
 }
+
+.diff {
+  font-size: 24px;
+}
+
 .wiki {
-  animation: spinThenFloat 1s ease-in-out infinite;
+  animation: spinThenFloat 3s ease-in-out infinite;
   position: relative;
   border-radius: 12px;
   border: 2px solid white;
-  transition: height 0.3s ease-in-out, transform 0.3s ease-in-out; 
+  transition: height 0.1s ease-in-out, transform 0.1s ease-in-out;
 }
 
 @keyframes spinThenFloat {
-  0%   { transform: rotate(0deg); } 
+  0%   { transform: rotate(0deg); }
   10%  { transform: rotate(360deg); }
-  100% { transform: translate(0, 0) rotate(360deg); } 
+  100% { transform: translate(0, 0) rotate(360deg); }
 }
 
 .eo {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  margin: 0;      
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
 .wiki:hover {
   height: 250px;
-  transform: rotate(30deg); 
+  transform: rotate(30deg);
   animation: none;
+}
+
+@media (max-width: 600px) and (min-width: 90px) {
+  * {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
 }
