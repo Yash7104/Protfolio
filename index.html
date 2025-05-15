@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
+
+  <!-- Navbar -->
+  <nav class="navbar">
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="about.html">About Me</a></li>
-      <li><a href="projects.html" target="_blank">My Projects</a></li>
+      <li><a href="projects.html">My Projects</a></li>
       <li><a href="#foot">Contact us</a></li>
     </ul>
   </nav>
+
   <!-- Header Section -->
   <header>
     <img src="web-ed.png" alt="Hero Image" style="width: 100%; height: 400px; object-fit: contain;">
@@ -34,54 +39,51 @@
 
     <h2>My Experience:</h2>
     <div class="eo">
-    <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-      <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png" height="150px" class="wiki wiki1" alt="html5">
-      <img src="https://cdn-icons-png.freepik.com/256/5968/5968242.png?semt=ais_hybrid" height="150px" class="wiki wiki2" alt="css3">
-      <img src="https://cdn.iconscout.com/icon/free/png-256/free-javascript-logo-icon-download-in-svg-png-gif-file-formats--html-programming-language-coding-logos-icons-1720087.png?f=webp" height="150px" class="wiki wiki3" alt="js">
-      <img src="https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png" height="150px" class="wiki wiki4" alt="React">
-</div>
-
-
+      <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+        <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png" height="150px" class="wiki wiki1" alt="html5">
+        <img src="https://cdn-icons-png.freepik.com/256/5968/5968242.png?semt=ais_hybrid" height="150px" class="wiki wiki2" alt="css3">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-javascript-logo-icon-download-in-svg-png-gif-file-formats--html-programming-language-coding-logos-icons-1720087.png?f=webp" height="150px" class="wiki wiki3" alt="js">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png" height="150px" class="wiki wiki4" alt="React">
+      </div>
     </div>
   </header>
 
-  <hr> 
+  <hr>
 
   <!-- Projects Section -->
   <h1 id="flex">My Projects</h1>
   <h5><a href="html.html" id="box3">Click Here!</a></h5>
   <hr>
 
+  <!-- Achievements Section -->
   <div class="mode">
     <h2>20+</h2>
     <h2>Connections Worldwide</h2>
   </div>
-  
+
   <div class="coding-hours">
-    <h3> 50+ Coding Hours</h3>
+    <h3>50+ Coding Hours</h3>
   </div>
 
   <div class="vi">
     <h2>100+ Views on This Portfolio</h2>
   </div>
   <hr>
-  
-  <form action=" ">
-    <div id="lets"><h1>Let's schedule a Talk</h1></div>
+
+  <!-- Contact Form -->
+  <form action="">
+    <div id="lets">
+      <h1>Let's schedule a Talk</h1>
+    </div>
     <div class="form-center">
-
       <input type="text" id="fname" name="fname" placeholder="First Name"><br>
-  
       <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
-
       <input type="email" id="email" name="email" placeholder="Your Email"><br>
-
       <input type="text" id="phone" name="phone" placeholder="Phone Number"><br>
-
       <input type="text" id="mes" name="mes" placeholder="Your Message"><br>
 
       <label for="rate">Please Rate us:</label>
-      <select>
+      <select id="rate">
         <option value="">Select</option>
         <option value="1">1</option>
         <option value="2">2</option>
@@ -93,14 +95,13 @@
         <option value="8">8</option>
         <option value="9">9</option>
         <option value="10">10</option>
-      </select><br>
-  
+      </select><br>s
+
       <input type="submit" id="sub" value="Send Message">
-       
-      </div>
+    </div>
   </form>
 
-  <!-- Advertisements Section -->
+  <!-- Advertisement Section -->
   <aside id="two">
     <fieldset>
       <legend><marquee id="navbar">Advertisements</marquee></legend>
@@ -114,7 +115,7 @@
   <!-- Footer Section -->
   <footer id="foot">
     <div class="made">
-      <i class="fa-solid fa-gift"></i>  </i>Made with <i class="fas fa-heart" style="color: red;"></i> by Yash
+      <i class="fa-solid fa-gift"></i> Made with <i class="fas fa-heart" style="color: red;"></i> by Yash
     </div>
     <hr style="width: 80%; border: 1px solid #38bdf8;">
     <div class="openai">
@@ -124,4 +125,4 @@
     </div>
   </footer>
 </body>
-</html>   
+</html>

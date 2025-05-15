@@ -14,6 +14,9 @@ body {
   color: white;
   padding-top: 60px;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* Headings */
 h1, h2 {
@@ -73,18 +76,20 @@ input[type="submit"]:hover {
 }
 
 #box3 {
-  color: orangered;
+  color: white;
   font-size: 25px;
   display: block;
   text-align: center;
   margin-top: 10px;
+  transition: transform 0.3s ease-in, box-shadow 0.9s ease-out;
+
 }
 
 #box3:hover {
   transform: scale(1.2);
   color: yellowgreen;
-  transition: transform 0.3s ease-in, box-shadow 0.9s ease;
 }
+
 
 #two {
   background-color: #1e293b;
