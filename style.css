@@ -7,7 +7,7 @@ html, body {
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('faded_gallery-JEludq8wsD8-unsplash.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/faded_gallery-JEludq8wsD8-unsplash.jpg'); /* keep URL image */
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -89,7 +89,6 @@ input[type="submit"]:hover {
   transform: scale(1.2);
   color: yellowgreen;
 }
-
 
 #two {
   background-color: #1e293b;
@@ -194,20 +193,26 @@ a:hover {
   to { transform: rotate(360deg); }
 }
 
+/* Only local image paths updated below */
+
+/* ladder local image */
 .ladder {
-  background-image: url('bgtech.jpg');
+  background-image: url('images/bgtech.jpg'); /* added images/ folder */
   background-repeat: no-repeat;
   background-size: contain;
 }
 
+/* los local image */
 .los {
   background-color: gold;
-  background-image: url('pexels-pixabay-235985.jpg');
+  background-image: url('images/pexels-pixabay-235985.jpg'); /* added images/ folder */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   height: 900px;
 }
+
+/* other styles unchanged */
 
 #ros {
   font-size: 30px;
@@ -409,7 +414,7 @@ textarea {
 
 .about {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url('ok.jpg');
+  background-image: url('images/ok.jpg'); /* local image */
   background-repeat: no-repeat;
   height: 900px;
   background-position: center;
