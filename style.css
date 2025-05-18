@@ -18,7 +18,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Headings */
+
 h1, h2 {
   color: #0ea5e9;
   margin-top: 20px;
@@ -193,26 +193,21 @@ a:hover {
   to { transform: rotate(360deg); }
 }
 
-/* Only local image paths updated below */
 
-/* ladder local image */
 .ladder {
-  background-image: url('images/bgtech.jpg'); /* added images/ folder */
+  background-image: url('images/bgtech.jpg'); 
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-/* los local image */
 .los {
-  background-color: gold;
-  background-image: url('images/pexels-pixabay-235985.jpg'); /* added images/ folder */
+  background-image: url('images/pexels-pixabay-235985.jpg'); 
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 900px;
+  height: 500px;
 }
 
-/* other styles unchanged */
 
 #ros {
   font-size: 30px;
@@ -501,6 +496,23 @@ textarea {
   height: 250px;
   transform: rotate(30deg);
   animation: none;
+}
+.git {
+  background-color: lightblue;
+  height: 100px;
+  position: relative;
+}
+.ostic {
+  display: block;
+  text-align: center;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#copper {
+  color: black;
+  
 }
 
 @media (max-width: 600px) and (min-width: 90px) {
