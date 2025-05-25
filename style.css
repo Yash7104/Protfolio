@@ -1,4 +1,4 @@
-html, body {
+/* html, body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@ html, body {
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/faded_gallery-JEludq8wsD8-unsplash.jpg'); /* keep URL image */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/faded_gallery-JEludq8wsD8-unsplash.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -100,7 +100,6 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
-/* Navbar */
 #navbar {
   font-family: Georgia, serif;
   color: white;
@@ -122,7 +121,6 @@ input[type="submit"]:hover {
   font-size: 22px;
 }
 
-/* Footer */
 #foot {
   display: flex;
   flex-direction: column;
@@ -157,7 +155,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Loader Animation */
 .loader-container {
   width: 100vw;
   height: 100vh;
@@ -200,36 +197,7 @@ a:hover {
   background-size: contain;
 }
 
-.los {
-  background-image: url('images/pexels-pixabay-235985.jpg'); 
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  height: 500px;
-}
 
-
-#ros {
-  font-size: 30px;
-  color: red;
-}
-
-.no h1 {
-  background-color: black;
-  color: white;
-  display: block;
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
-
-.new {
-  background-image: none;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: block;
-}
 
 .t {
   color: blue;
@@ -258,10 +226,7 @@ textarea {
   width: 100%;
 }
 
-.los, .new {
-  background-size: cover;
-  background-position: center;
-}
+
 
 #sos {
   color: deeppink;
@@ -282,7 +247,6 @@ textarea {
   transition: transform 0.5s ease, box-shadow 0.3s ease;
 }
 
-/* Unique shadows */
 .mode {
   box-shadow: 10px 10px 15px rgba(0, 255, 255, 0.6);
 }
@@ -373,7 +337,6 @@ textarea {
   transform: scale(1.1);
 }
 
-/* Navbar Styling */
 .navbar {
   background-color: #333;
   display: flex;
@@ -409,7 +372,7 @@ textarea {
 
 .about {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url('images/ok.jpg'); /* local image */
+  background-image: url('images/ok.jpg'); 
   background-repeat: no-repeat;
   height: 900px;
   background-position: center;
@@ -422,27 +385,7 @@ textarea {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.btn {
-  display: inline-block;
-  text-align: center;
-  padding: 10px 20px;
-  background-color: #2196F3;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: bold;
-}
 
-.btn:hover {
-  background-color: #0b7dda;
-}
-
-.button-container {
-  text-decoration: none;
-  text-align: center;
-  margin-top: 20px;
-}
 
 #mes {
   height: 100px;
@@ -497,11 +440,7 @@ textarea {
   transform: rotate(30deg);
   animation: none;
 }
-.git {
-  background-color: lightblue;
-  height: 100px;
-  position: relative;
-}
+
 .ostic {
   display: block;
   text-align: center;
@@ -510,14 +449,6 @@ textarea {
   font-weight: bold;
   font-size: 1.5em;
 }
-#copper {
-  color: black;
-  
-}
-
-@media (max-width: 600px) and (min-width: 90px) {
-  * {
-    font-size: 14px;
-    padding: 10px 14px;
-  }
-}
+.projects {
+  background-image: none;
+} */
