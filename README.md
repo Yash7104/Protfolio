@@ -1,7 +1,7 @@
  # 🚀 Portfolio Website
 ![Published](https://img.shields.io/badge/Status-Published-green?style=for-the-badge&logo=github)
 
-Welcome to my personal **portfolio website**, built using **HTML** and **CSS** (no JavaScript involved, just pure design!).
+Welcome to my personal **portfolio website**, built using **HTML** and **CSS**and **JS**
 
 **Check out the live website**: [Website here!](https://yash7104.github.io/Protfolio/)
 
