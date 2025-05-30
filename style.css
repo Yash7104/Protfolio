@@ -84,11 +84,13 @@ html {
 }
 
 h1, h2 {
-  color: #0ea5e9;
   margin-top: 20px;
   text-align: center;
 }
-
+#none {
+  color: #14b8a6;
+  font-family: 'Times New Roman', Times, serif;
+}
 h3, h4, h5 {
   color: #334155;
   text-align: center;
