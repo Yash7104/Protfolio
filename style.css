@@ -134,23 +134,47 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #0284c7;
 }
-
-#flex {
-  color: orange;
-  font-size: 35px;
-  margin-top: 40px;
+.card {
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  padding: 30px 20px;
+  text-align: center;
+  width: 40%;
+  max-width: 400px;
+  margin: 40px auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-shadow: 10px 10px 15px rgb(252, 20, 182);
 }
 
+#repog {
+  color: orange;
+  font-size: 26px;
+  margin-top: auto;
+}
+.fa-hand-point-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+}
+
+.all {
+  display: flex;
+}
 #box3 {
-  color: white;
-  font-size: 25px;
+  color: green;
+  font-size: 26px;
   display: block;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 5px;
   transition: transform 0.3s ease-in, box-shadow 0.9s ease-out;
 
 }
-
+.getlost {
+  color: greenyellow;
+  font-size: larger;
+}
 #box3:hover {
   transform: scale(1.2);
   color: yellowgreen;

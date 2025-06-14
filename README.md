@@ -9,7 +9,7 @@ Welcome to my personal **portfolio website**, built using **HTML** and **CSS**an
 
 ---
 
-## IF YOU WANT TO FORK THIS REPO THIS BOX IS FOR YOU ONLY🤖🧐
+## IF YOU WANT TO FORK THIS REPO  FOR YOUR OWN README THIS BOX IS FOR YOU ONLY🤖
 
 1. **Fork the Repository**  
    - Click the **Fork** button at the top-right of the page or go to:  
@@ -22,7 +22,7 @@ Welcome to my personal **portfolio website**, built using **HTML** and **CSS**an
      ```
 
 3. **Customize Your Portfolio**  
-   - Modify the HTML and CSS to make the portfolio your own. You can change the content, layout, and design however you like.
+   - Modify the HTML and CSS and JS to make the portfolio your own. You can change the content, layout, and design however you like.
 
 4. **Publish Your Portfolio**  
    - Once you're done, you can host your portfolio on GitHub Pages and share your unique link with the world! 
