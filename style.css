@@ -144,7 +144,7 @@ input[type="submit"]:hover {
   max-width: 400px;
   margin: 40px auto;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  box-shadow: 10px 10px 15px rgb(252, 20, 182);
+  box-shadow: 10px 10px 15px rgb(250, 20, 182);
 }
 
 #repog {
